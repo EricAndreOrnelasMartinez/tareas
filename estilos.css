@@ -1,0 +1,62 @@
+body{
+	background-color: #48e;
+	font-family: Arial;
+}
+
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+    margin-left: 160px;
+	width: 80%;
+}
+
+th, td{
+	padding: 10px;
+}
+
+thead{
+	background-color: black;
+	border-bottom: solid 5px purple;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color:blue;
+	color: white;
+}
+nav{
+	background-color: rgb(2, 32, 56);
+	overflow: hidden;
+	width: 100%;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background-color: blue;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
